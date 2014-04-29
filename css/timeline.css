@@ -1,0 +1,89 @@
+.timeline {
+    border-left: 1px solid #999;
+    width: 0;
+    margin: 120px auto 0;
+    padding: 0;
+    position: relative;
+    list-style: none;
+    li {
+        width: 215px;
+        display: block;
+        position: relative;
+        border: 1px solid #999;
+        padding: 15px;
+        margin: 0 0 0 35px;
+        border-radius: 5px;
+        &:before {
+            content: "\2022";
+            color: #999;
+            font-size: 21px;
+            position: absolute;
+            left: -40px;
+            top: 25px;
+        }
+        &:after {
+            height: 15px;
+            width: 15px;
+            background-color: #fff;
+            position: absolute;
+            top: 35px;
+            left: -8px;
+            content: "";
+            font-size: 25px;
+            line-height: 0.3;
+            border: 1px solid #999;
+            .rotate(-45deg);
+        }
+        &:first-child {
+            width: 245px;
+            list-style: none;
+            text-align: center;
+            margin: 0 auto;
+            position: absolute;
+            top: -140px;
+            left: -124px;
+            border: 0 none;
+            &:before {
+                left: 120px;
+                top: 88%;
+            }
+            &:after {
+                display: none;
+            }
+            h2 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 17px;
+            }
+        }
+        &:nth-child(2n+2) {
+            &:after {
+                border-bottom: 0;
+                border-right: 0;
+            }
+        }
+        &:nth-child(2n+3) {
+            direction: rtl;
+            margin: 0 0 0 -280px;
+            &:before {
+                left: 275px;
+            }
+            &:after {
+                left: 237px;
+                border-top: 0;
+                border-left: 0;
+            }
+        }
+        h3 {
+            font-size: 18px;
+            color: #008fc8;
+            margin-top: 0;
+        }
+        p {
+            font-size: 14px;
+            color: #6b6b6b;
+            margin-bottom: 0;
+        }
+    }
+}
