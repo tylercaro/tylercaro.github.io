@@ -15,7 +15,7 @@
 .btn-linkedin:active, 
 .btn-linkedin.active, 
 .open .dropdown-toggle.btn-linkedin { 
-  color: #4875B4; 
+  color: #FFFFFF; 
   background-color: transparent; 
   border-color: transparent; 
 } 
@@ -46,7 +46,7 @@ fieldset[disabled] .btn-linkedin.active {
 } 
  
 .btn-linkedin .badge { 
-  color: #FFFFFF; 
+  color: #4875B4; 
   background-color: transparent; 
 }
 
