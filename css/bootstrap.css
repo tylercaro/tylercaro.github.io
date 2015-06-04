@@ -2073,7 +2073,51 @@ fieldset[disabled] .btn-default.active {
   color: #fff;
   background-color: #333;
 }
-
+.btn-github { 
+  color: #FFFFFF; 
+  background-color:transparent; 
+  border-color: transparent; 
+} 
+ 
+.btn-github:hover, 
+.btn-github:focus, 
+.btn-github:active, 
+.btn-github.active, 
+.open .dropdown-toggle.btn-github { 
+  color: #A35994; 
+  background-color: transparent; 
+  border-color: transparent; 
+} 
+ 
+.btn-github:active, 
+.btn-github.active, 
+.open .dropdown-toggle.btn-github { 
+  background-image: none; 
+} 
+ 
+.btn-github.disabled, 
+.btn-github[disabled], 
+fieldset[disabled] .btn-github, 
+.btn-github.disabled:hover, 
+.btn-github[disabled]:hover, 
+fieldset[disabled] .btn-github:hover, 
+.btn-github.disabled:focus, 
+.btn-github[disabled]:focus, 
+fieldset[disabled] .btn-github:focus, 
+.btn-github.disabled:active, 
+.btn-github[disabled]:active, 
+fieldset[disabled] .btn-github:active, 
+.btn-github.disabled.active, 
+.btn-github[disabled].active, 
+fieldset[disabled] .btn-github.active { 
+  background-color: transparent; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-github .badge { 
+  color: transparent; 
+  background-color: #FFFFFF; 
+}
 .btn-linkedin { 
   color: #FFFFFF; 
   background-color:transparent; 
@@ -2119,7 +2163,51 @@ fieldset[disabled] .btn-linkedin.active {
   color: transparent; 
   background-color: #FFFFFF; 
 }
-
+.btn-cv { 
+  color: #FFFFFF; 
+  background-color:transparent; 
+  border-color: transparent; 
+} 
+ 
+.btn-cv:hover, 
+.btn-cv:focus, 
+.btn-cv:active, 
+.btn-cv.active, 
+.open .dropdown-toggle.btn-cv { 
+  color: #5ABD33; 
+  background-color: transparent; 
+  border-color: transparent; 
+} 
+ 
+.btn-cv:active, 
+.btn-cv.active, 
+.open .dropdown-toggle.btn-cv { 
+  background-image: none; 
+} 
+ 
+.btn-cv.disabled, 
+.btn-cv[disabled], 
+fieldset[disabled] .btn-cv, 
+.btn-cv.disabled:hover, 
+.btn-cv[disabled]:hover, 
+fieldset[disabled] .btn-cv:hover, 
+.btn-cv.disabled:focus, 
+.btn-cv[disabled]:focus, 
+fieldset[disabled] .btn-cv:focus, 
+.btn-cv.disabled:active, 
+.btn-cv[disabled]:active, 
+fieldset[disabled] .btn-cv:active, 
+.btn-cv.disabled.active, 
+.btn-cv[disabled].active, 
+fieldset[disabled] .btn-cv.active { 
+  background-color: transparent; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-cv .badge { 
+  color: transparent; 
+  background-color: #FFFFFF; 
+}
 .btn-primary {
   color: #fff;
   background-color: transparent;
