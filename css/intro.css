@@ -1,0 +1,72 @@
+/* bootstrap overrides*/
+.navbar {
+	background-color: transparent;
+	background: transparent;
+	border-color: transparent;
+}
+
+.navbar .navbar-nav > li > a{
+	color: #000000;
+	font-weight: bold;
+	font-size: 12pt;
+}
+
+.navbar .navbar-nav > li >a:hover{
+	text-decoration: underline;
+}
+
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus{
+	color: #000000;
+	background-color: transparent;
+	font-weight: bold;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+	font-size: 3em;
+}
+
+.thumbnail{
+	background-color: transparent;
+	border-color: transparent;
+}
+
+/* personal CSS*/
+.intro-screen{
+	font-family: Arial;
+}
+
+.intro-screen > h1{
+	font-size: 4em;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.intro-screen > p{
+	padding-top: 0%;
+}
+
+.leftContainer{
+	float: left;
+	display: inline-block;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.rightContainer{
+	float: right;
+	display: inline-block;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+}
+
+.row-centered {
+    text-align:center;
+}
+
+.col-centered {
+    display:inline-block;
+    float:none;
+    text-align:left;
+    margin-right:-4px;
+}
