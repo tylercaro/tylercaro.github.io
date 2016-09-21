@@ -1,242 +1,101 @@
+<!-- Java, Python, C/C++, Scikit-learn, Mathematica, REST, SQL, Hibernate, JDBC, XML, JSON, Jupyter, Hive, LaTeX, Git, Numerical Analysis, Coffee -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Tyler J. Caro</title>
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.css"/>
+        <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/intro.css">
 
-    <title>Tyler J. Caro</title>
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
+        <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.css" rel="stylesheet">
+        <!-- config and custom js -->
+        <script type="text/javascript" src ="js/full-page-conf.js"></script>
+  </head>
 
-    <!-- Custom Google Web Font -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
+  <body>
+        <!-- navbar -->
+        <nav id = "menu" class="navbar navbar-default navbar-fixed-top">
+            <ul class="nav navbar-nav">
+                <li data-menuanchor ="introPage"><a href="#introPage">Intro</a></li>
+                <li data-menuanchor ="skillsPage"><a href="#skillsPage">Skills</a></li>
+                <li data-menuanchor ="experiencePage"><a href="#experiencePage">Experience</a></li>
+                <li data-menuanchor ="personalPage"><a href="#personalPage">Personal</a></li>
+            </ul>
+        </nav><!-- end navbar-->
 
-    <!-- #########custom CSS here -->
-    <link href="css/landing-page.css" rel="stylesheet">
-    <link href="css/timeline.css" rel="stylesheet" type="text/css">
-    
-</head>
-
-<body>
-
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="https://tylercaro.github.io">Home</a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <li><a href="#about">About</a>
-                    </li>
-                    <li><a href="#experience">Experience</a>
-                    </li>
-                    <li><a href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
-
-    <div class="intro-header">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Tyler J. Caro</h1>
-                        <h3>Researcher. Programmer. Budding Software Dev</h3>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li><a href="https://drive.google.com/file/d/0B5iy3S0v2qrFUHJfbHVkbnFMLTg/view?usp=sharing" class="btn btn-cv btn-lg"><i class="fa fa-paperclip fa-3x"></i> <span class="network-name"></span></a>
-                            </li>
-                            <li><a href="https://github.com/tylercaro" class="btn btn-github btn-lg"><i class="fa fa-github fa-3x"></i> <span class="network-name"></span></a>
-                            </li>
-                            <li><a href="https://www.linkedin.com/pub/tyler-caro/89/ab4/397" class="btn btn-linkedin btn-lg"><i class="fa fa-linkedin fa-3x"></i> <span class="network-name"></span></a>
-                            </li>
-                        </ul>
-                    </div>
+        <div id="fullpage">
+        <!-- intro -->
+            <div class="section">
+                <div class="intro-screen" align="center">
+                    <h1>Tyler Caro</h1>
+                    <h3>Research Engineer</h3>
+                    <p>tylercaro@gmail.com</p>
                 </div>
-            </div>
+            </div> <!-- end Intro page -->
 
-        </div>
-        <!-- /.container -->
+            <!-- Skills -->
+            <div class="section">
 
-    </div>
-    <!-- /.intro-header -->
-
-    <div class="content-section-a">
-
-        <div class="container">
-
-            <div class="row">
-            <a id="about">&nbsp;</a>
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">About Me</h2>
-                    <p class="lead"> I am a recent Physics graduate from the University of California: Riverside with my focus of study being computational methods in physics. In my free time I enjoy furthering my knowledge of programming, computation, and working on small-scale web applications. Some of my side projects can be seen on <a target="_blank" href="http://github.com/tylercaro">my github page.</a></p>
+                <div align="center">
+                    <h3>Languages and APIs</h3>
+                    <p>Java, Python, C/C++, Numpy, Mathematica, Hadoop(Hive), SQL, Git, Scikit-learn, GSL</p><br>
                 </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/einstein.jpg" alt="">
-                </div>
-            </div>
 
-        </div>
-        <!-- /.container -->
+                <!-- links to repo -->
+                <div class="row row-centered">
+                    <!-- Grover's -->
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb col-centered">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                            </a>
+                            <div class="caption">
+                                <h5>Grover's Algorithm Implementation</h5>
+                                <p>Stack: Haskell, Quipper</p>
+                            </div>
+                        </div>
+                    </div><!-- end Grover's -->
+                    <!--2d diffusion-->
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb col-centered">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                            </a>
+                            <div class="caption">
+                                <h5>2D Diffusion Across Membrane</h5>
+                                <p>Stack: C++, GSL, Mathematica</p>
+                            </div>
+                        </div>
+                    </div><!-- end 2d diffusion -->
+                    <!-- dbscan -->
+                    <div class="col-lg-3 col-md-4 col-xs-6 thumb col-centered">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                            </a>
+                            <div class="caption">
+                                <h5>DBSCAN Implementation</h5>
+                                <p>Stack: Python, Numpy, Matplotlib</p>
+                            </div>
+                        </div>
+                    </div><!-- end dbscan -->
+                </div><!-- end Repo links -->
+            </div><!-- end Skills page -->
 
-    </div>
-    <!-- /.content-section-a -->
+            <!-- Experience -->
+            <div class="section">Experience
+            </div><!-- end Expereince page -->
 
-    <div class="content-section-b">
+            <!-- Personal -->
+            <div class="section">Personal
+            </div><!-- end Personal page -->
 
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Research</h2>
-                    <p class="lead">While at UCR, my primary research was in studying the fluctuation-induced (Casimir-like) forces between protein inclusions through simulation and mathematical modeling. The goal of the research is to gain a better working image into how proteins self-organize and the magnitude of any Casimir-like contributions.</p>
-                </div>
-                <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/casmir.gif" alt="">
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-b -->
-    
-<!-- start timeline-->
-    <a id="experience">&nbsp;</a>  
-    <div class="content-section-a">
-        <div class="container">
-
-        <ul class="timeline">
-            <li><h2>Experience</h2></li>
-            <li>
-                <h3>2014</h3>
-                <p>Poster presenter at 2014 AAAs Pacific Division symposium</p>
-            </li>
-            <li>
-                <h3>2013</h3>
-                <p>Poster presenter at 2013 ACS: Colloids symposium</p>
-            </li>
-            <li>
-                <h3>2012</h3>
-                <p>MSRIP fellowship through the Medical Scholars Program</p>
-            </li>
-            <li>
-                <h3>2011</h3>
-                <p>Began attending the University of California: Riverside as a Physics undergraduate</p>
-            </li>
-            <li>
-                <h3>2008-2009</h3>
-                <p>Worked as an adjudicator for the state of Indiana</p>
-            </li>
-        </ul>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-    <!-- /.timeline-->
-    
-    <!--Start Contact-->
-    <div class="content-section-b">
-
-        <div class="container">
-
-            <div class="row">
-            <a id="contact">&nbsp;</a>
-                <div class="col-lg-5 col-sm-6">
-                    <hr class="section-heading-spacer">
-                    <div class="clearfix"></div>
-                    <h2 class="section-heading">Contact Me</h2>
-                    <p class="lead"><i class="fa  fa-envelope"></i> Tylercaro@gmail.com</p>
-                    <div class="btn-group">
-                        <a href="https://www.linkedin.com/pub/tyler-caro/89/ab4/397" class="btn btn-default"><i class="fa fa-linkedin fa-2x"></i></a>
-                        <a href="https://github.com/tylercaro" class="btn btn-default"><i class="fa fa-github fa-2x"></i></a>
-                        <a href="https://drive.google.com/file/d/0B5iy3S0v2qrFUHJfbHVkbnFMLTg/view?usp=sharing" class="btn btn-default"><i class="fa fa-paperclip fa-2x"></i></a>
-                    </div>
-                
-                </div>
-                <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                 
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-
-    </div>
-    <!-- /.content-section-a -->
-
-
-
-    <div class="banner">
-
-        <div class="container">
-
-            <div class="row">
-                <div class="col-lg-6">
-             
-                </div>
-            </div>
-
-        </div>
-        <!-- /.container -->
-        
-    </div>
-    <!-- /.banner -->
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li><a href="#home">Home</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#about">About</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#services">Services</a>
-                        </li>
-                        <li class="footer-menu-divider">&sdot;</li>
-                        <li><a href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Tyler J Caro 2013. All Rights Reserved</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <!-- JavaScript -->
-    <script src="js/jquery-1.10.2.js"></script>
-    <script src="js/bootstrap.js"></script>
-    
-
-</body>
-
+        </div><!--end fullpage -->
+    </body>
 </html>
