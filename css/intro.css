@@ -1,5 +1,6 @@
 /* bootstrap overrides*/
 .navbar {
+	padding-top: 1%;
 	background-color: transparent;
 	background: transparent;
 	border-color: transparent;
@@ -8,11 +9,11 @@
 .navbar .navbar-nav > li > a{
 	color: #000000;
 	font-weight: bold;
-	font-size: 12pt;
+	font-size: 2em;
 }
 
 .navbar .navbar-nav > li >a:hover{
-	text-decoration: underline;
+	color: #4BBFC3;
 }
 
 .navbar .navbar-nav > .active > a,
