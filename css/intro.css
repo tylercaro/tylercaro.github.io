@@ -9,9 +9,14 @@ A8A7A7 - pewter grey
 
 **/
 
-/* navbar stuff*/
+/* TODO: mobile navbar scaling */
+
+/*/
+//
+// Mobile navbar scaling
+//
+/*/
 .navbar {
-	padding-top: 1%;
 	background-color: transparent;
 	background: transparent;
 	border-color: transparent;
@@ -20,13 +25,14 @@ A8A7A7 - pewter grey
 .navbar .navbar-nav > li > a{
 	color: #000000;
 	font-weight: bold;
-	font-size: 2em;
+	font-size: 1em;
 }
 
-.navbar .navbar-nav > li >a:hover{
+.navbar .navbar-nav > li > a:hover{
 	color: #9A947C;
 }
 
+@media(min-width: 400px){
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus{
@@ -34,7 +40,26 @@ A8A7A7 - pewter grey
 	background-color: transparent;
 	font-weight: bold;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
-	font-size: 2.5em;
+	font-size: 1.5rem;
+  border-bottom-color: #000000; 
+}
+}
+
+/*/
+//
+// Desktop navbar scaling
+//
+/*/
+@media(min-width: 400px){
+  .navbar .navbar-nav > li{
+    display: inline-block;
+  } 
+
+  .navbar .navbar-nav > .active > a,
+  .navbar .navbar-nav > .active > a:hover,
+  .navbar .navbar-nav > .active > a:focus{
+    font-size: 1.5em;
+  }
 }
 
 /* thumbnail stuff */
@@ -45,13 +70,11 @@ A8A7A7 - pewter grey
 
 /* info screen */
 .intro-screen > h1{
-	font-family: Arial;
 	font-weight: bold;
 	/*font-size: 5em;*/
 }
 
 .intro-screen > h3{
-	font-family: Arial;
 	/*font-size: 2em;*/
 	color: #348899;
 }
@@ -77,7 +100,12 @@ A8A7A7 - pewter grey
 	margin: auto;
 	text-align: center;
 }
-
+.thumbnail img{
+/*	min-height: 200px;
+	height: 200px;
+	min-width: 300px;
+	width: 300px;*/
+}
 .row-centered {
     text-align:center;
 }
@@ -89,7 +117,16 @@ A8A7A7 - pewter grey
     margin-right:-4px;
 }
 
-/*/ Modern Scale for Web Typography
+.skills-screen > a{
+	color: #748B83;
+}
+@media(min-width: 400px){
+  .skills-screen{
+    padding-top: 15%;
+  }
+}
+/*
+ Modern Scale for Web Typography
 // Ref: http://typecast.com/blog/a-more-modern-scale-for-web-typography
 // -----------------------------------------------------------------------------
 // Mobile
@@ -103,7 +140,7 @@ A8A7A7 - pewter grey
 // h4   | 18px | 20px
 // h5   | 16px | 20px
 // h6   | 14px | 17.5
-// BQ   | 20px | 25px */
+// BQ   | 20px | 25px 
 
 html {
   font-size: 100%;
@@ -114,7 +151,7 @@ th, td,
 input, textarea, select, option,
 legend, fieldset,
 h1, h2, h3, h4, h5, h6 {
-  font-size-adjust: 0.5;
+  font-size-adjust: .5;
 }
 body {
   font-size: 1rem;
@@ -149,7 +186,7 @@ blockquote {
   line-height: 1.25;
 }
 
-/*// Large Tablet
+// Large Tablet
 // -----------------------------------------------------------------------------
 // Elem | Font | Line
 // -----------------------------------------------------------------------------
@@ -160,7 +197,7 @@ blockquote {
 // h4   | 18px | 22px
 // h5   | 16px | 22px
 // h6   | 14px | 19.25px
-// BQ   | 24px | 33px */
+// BQ   | 24px | 33px 
 
 @media (min-width: 700px) {
   body {
@@ -196,13 +233,13 @@ blockquote {
   }
 }
 
-/*// Large Desktop
+// Large Desktop
 // -----------------------------------------------------------------------------
 // Elem | Font | Line
 // -----------------------------------------------------------------------------
 // h1   | 48px | 50px
 // h2   | 36px | 45px
-// h3   | 28px | 35px */
+// h3   | 28px | 35px 
 
 @media (min-width: 900px) {
   h1 {
@@ -218,3 +255,4 @@ blockquote {
     line-height: 1.25;
   }
 }
+*/
