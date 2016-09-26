@@ -19,7 +19,7 @@ A8A7A7 - pewter grey
 .navbar {
 	background-color: transparent;
 	background: transparent;
-	border-color: transparent;
+	border-color: #000000;
 }
 
 .navbar .navbar-nav > li > a{
@@ -32,7 +32,7 @@ A8A7A7 - pewter grey
 	color: #9A947C;
 }
 
-@media(min-width: 400px){
+
 .navbar .navbar-nav > .active > a,
 .navbar .navbar-nav > .active > a:hover,
 .navbar .navbar-nav > .active > a:focus{
@@ -43,14 +43,12 @@ A8A7A7 - pewter grey
 	font-size: 1.5rem;
   border-bottom-color: #000000; 
 }
-}
-
 /*/
 //
 // Desktop navbar scaling
 //
 /*/
-@media(min-width: 400px){
+@media(min-width: 350px){
   .navbar .navbar-nav > li{
     display: inline-block;
   } 
@@ -119,10 +117,11 @@ A8A7A7 - pewter grey
 
 .skills-screen > a{
 	color: #748B83;
+  padding-top: 20%;
 }
-@media(min-width: 400px){
+@media(min-width: 900px){
   .skills-screen{
-    padding-top: 15%;
+    padding-top: 0%;
   }
 }
 /*
