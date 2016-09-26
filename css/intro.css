@@ -19,7 +19,7 @@ A8A7A7 - pewter grey
 .navbar {
 	background-color: transparent;
 	background: transparent;
-	border-color: #000000;
+	border-color: #9D7E79;
 }
 
 .navbar .navbar-nav > li > a{
@@ -41,8 +41,9 @@ A8A7A7 - pewter grey
 	font-weight: bold;
 	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.4);
 	font-size: 1.5rem;
-  border-bottom-color: #000000; 
+  /*border-bottom-color: #9D7E79;*/
 }
+
 /*/
 //
 // Desktop navbar scaling
@@ -98,12 +99,7 @@ A8A7A7 - pewter grey
 	margin: auto;
 	text-align: center;
 }
-.thumbnail img{
-/*	min-height: 200px;
-	height: 200px;
-	min-width: 300px;
-	width: 300px;*/
-}
+
 .row-centered {
     text-align:center;
 }
@@ -117,7 +113,12 @@ A8A7A7 - pewter grey
 
 .skills-screen > a{
 	color: #748B83;
-  padding-top: 20%;
+}
+
+@media(min-width: 350px){
+  .skills-screen{
+    padding-top: 25%; 
+  }
 }
 @media(min-width: 900px){
   .skills-screen{
