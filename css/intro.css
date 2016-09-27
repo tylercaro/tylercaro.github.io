@@ -23,6 +23,7 @@
 
 body{
   font-family: 'Roboto', sans-serif;
+  font-weight: 500; 
 }
 .main-content{
   float: right;
@@ -106,24 +107,29 @@ a{
   }
 }
 
-.intro-splash .intro-status,
+.intro-splash > h1{
+  color: #ffffff;
+}
+
 .intro-splash > h4{
   color: #ffffff;
-  font-weight: bold;
+  font-weight: 400;
   display: inline-block;
 }
 
-.intro-splash .intro-status >p {
+.intro-splash > p {
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.intro-splash .intro-status {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: bold;
   padding: 0;
   color: #000000;
   background-color: #f6f6f6;
+  display: inline-block;
   /*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
-}
-
-.intro-splash > p,
-.intro-splash > h1{
-  color: #ffffff;
-  font-weight: bold;
 }
 
 .contact-info{
