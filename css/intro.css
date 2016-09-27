@@ -20,6 +20,10 @@
 ** Parent to:
 ** section1-N
 */
+
+body{
+  font-family: 'Roboto Mono', monospace;
+}
 .main-content{
   float: right;
   display: block;
@@ -98,6 +102,18 @@ a{
     padding-right: 5%;
     position: fixed;
   }
+}
+.intro-splash .intro-status > p,
+.intro-splash .intro-status > h4{
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.intro-splash .intro-status >p {
+  color: #15A3A5;
+  background-color: #f6f6f6;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .intro-splash > p,
