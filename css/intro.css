@@ -152,7 +152,7 @@ a{
   float: left;
   padding-left: 10%;
   padding-right: 10%;
-  background: #89D3D4;
+  background: #15A3A5;
   background-size: 400% 400%;
   min-height: 400px;
 }
@@ -161,13 +161,15 @@ a{
   .splash-content{
     height: 100%;
     width: 50%;
+    padding-left: 5%;
+    padding-right: 5%;
     position: fixed;
   }
 }
 
 .intro-splash > p,
-.intro-splash > h2{
-  color: #418888;
+.intro-splash > h1{
+  color: #ffffff;
   font-weight: bold;
 }
 
