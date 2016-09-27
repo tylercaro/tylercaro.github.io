@@ -1,7 +1,7 @@
 <!-- Java, Python, C/C++, Scikit-learn, Mathematica, REST, SQL, Hibernate, JDBC, XML, JSON, Jupyter, Hive, LaTeX, Git, Numerical Analysis, Coffee -->
 
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html lang="en">
     <head>
         <meta name="viewport" content="width=device-width" />
         <title>Tyler J. Caro</title>
@@ -12,85 +12,63 @@
         <link rel="stylesheet" type="text/css" href="css/intro.css">
 
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.8.6/jquery.fullPage.js"></script>
         <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-
-        <!-- config and custom js -->
-        <script type="text/javascript" src ="js/full-page-conf.js"></script>
   </head>
 
   <body>
-        <!-- navbar -->
-        <nav id = "menu" class="navbar navbar-default navbar-fixed-top">
-            <ul class="nav navbar-nav">
-                <li data-menuanchor ="introPage"><a href="#introPage">Intro</a></li>
-                <li data-menuanchor ="skillsPage"><a href="#skillsPage">Skills</a></li>
-                <li data-menuanchor ="personalPage"><a href="#personalPage">Personal</a></li>
-            </ul>
-        </nav><!-- end navbar-->
+    <div class = "main_view">
+        <div class="splash-content">
+            <div class="intro-splash">
+                <h2>Hi, I'm Tyler Caro.</h2>
+                <p> Research engineer, drinker of coffee, and lover of chimichangas.</p>
+                <p class="contact-info"><i class="fa fa-envelope-o"> </i> tylercaro@gmail.com</p>
+            </div>
+        </div> <!-- end Intro page -->
 
-        <div id="fullpage">
-        <!-- intro -->
-            <div class="section">
-                <div class="intro-screen" align="center">
-                    <h1>Tyler Caro</h1>
-                    <h4>Research Engineer</h4>
-                    <p>tylercaro@gmail.com</p>
-                </div>
-            </div> <!-- end Intro page -->
+        <div class="main-content">
+            <!-- Bio -->
+            <div class="section0">
+                <h2>Bio</h2>
+                <p class="bio-writeup"> I don't think anyone would have expected someone who grew up on 
+                    a cattle ranch in desert of southern California to end up getting into anything STEM related, 
+                    but here I am. I graduated in 2014 with a B.S. in Physics, and have continued on a path in 
+                    software development and applied research at USAA. <br> <br>I have a passion for quantum computing, 
+                    tasty food, and general nerdom (not nessicairly in that order).
+                </p>
 
+            </div><!-- end Bio page -->
             <!-- Skills -->
-            <div class="section">
-
-                <div class="skills-screen" align="center">
-                    <h4>Languages and APIs</h4>
-                    <h6>Java, Python, C/C++, Numpy, Mathematica, Hadoop(Hive), SQL, Git, Scikit-learn, GSL</h6><br>
-                    <a href="https://github.com/tylercaro"><h5>Here are some examples<h5></a>
+            <div class="section1">
+                <h2>Projects</h2>
+                <div class="project-pannel">
+                    <h4>
+                        <a href="https://github.com/tylercaro">
+                            <i class="fa fa-github-alt"></i> Grover's Algorithm - implementation</h4>
+                        </a>
+                    <p>Haskell, Quipper</p>
                 </div>
-
-                <!-- links to repo -->
-                <div class="row row-centered">
-                    <!-- Grover's -->
-                    <div class="col-lg-3 col-md-4 col-xs-5 thumb col-centered">
-                        <div class="thumbnail">
-                            <a href="#">
-                                <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-                            </a>
-                            <div class="caption">
-                                <h5>Grover's Algorithm Implementation</h5>
-                                <h6>Haskell, Quipper</h6>
-                            </div>
-                        </div>
-                    </div><!-- end Grover's -->
-                    <!--2d diffusion-->
-                    <div class="col-lg-3 col-md-4 col-xs-5 thumb col-centered">
-                        <div class="thumbnail">
-                            <a href="#">
-                                <img class="img-responsive" src="img/casimirsphere_mohideen_big.gif" alt="">
-                            </a>
-                            <div class="caption">
-                                <h5>2D Diffusion Across Membrane</h5>
-                                <h6>C++, GSL, Mathematica</h6>
-                            </div>
-                        </div>
-                    </div><!-- end 2d diffusion -->
-                    <!-- dbscan -->
-                    <div class="col-lg-3 col-md-4 col-xs-5 thumb col-centered">
-                        <div class="thumbnail">
-                            <a href="#">
-                                <img class="img-responsive" src="img/dbscan.png" alt="">
-                            </a>
-                            <div class="caption">
-                                <h5>DBSCAN Implementation</h5>
-                                <h6>Python, Numpy, Matplotlib</h6>
-                            </div>
-                        </div>
-                    </div><!-- end dbscan -->
-                </div><!-- end Repo links -->
+                <div class="project-pannel">
+                    <h4>
+                        <a href="https://github.com/tylercaro">
+                            <i class="fa fa-github-alt"></i> Casimir Simulation - Membrane</h4>
+                        </a>
+                    <p>C/C++, GSL, Mathematica</p>
+                </div>
+                <div class="project-pannel">
+                    <h4>
+                        <a href="https://github.com/tylercaro">
+                            <i class="fa fa-github-alt"></i> DBSCAN - implementation</h4>
+                        </a>
+                    <p>Python, Numpy, Matplotlib</p>
+                </div>
             </div><!-- end Skills page -->
 
             <!-- Personal -->
-            <div class="section">Personal
+            <div class="section2">
+            </div><!-- end Personal page -->
+
+            <!-- Personal -->
+            <div class="section3">
             </div><!-- end Personal page -->
 
         </div><!--end fullpage -->
