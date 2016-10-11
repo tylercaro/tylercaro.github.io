@@ -92,8 +92,16 @@ a{
   height: 100%;
   padding-left: 10%;
   padding-right: 10%;
-  background: #15A3A5;
-  background-size: 400% 400%;
+  background:
+  linear-gradient(
+      rgba(21, 163, 165, 0.80), 
+      rgba(21, 163, 165, 0.80)
+    ),
+   url(me.jpg);
+
+  /*background: #15A3A5;*/
+  background-size: 100% auto;
+  background-repeat: no-repeat;
   min-height: 400px;
 }
 
