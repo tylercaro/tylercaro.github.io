@@ -94,8 +94,8 @@ a{
   padding-right: 10%;
   background:
   linear-gradient(
-      rgba(21, 163, 165, 0.80), 
-      rgba(21, 163, 165, 0.80)
+      rgba(21, 163, 165, 0.85), 
+      rgba(21, 163, 165, 0.85)
     ),
    url(me.jpg);
 
@@ -119,18 +119,18 @@ a{
   color: #ffffff;
 }
 
-.intro-splash > h4{
+.intro-splash .blurb-footer > h4{
   color: #ffffff;
   font-weight: 400;
   display: inline-block;
 }
 
-.intro-splash > p {
+.intro-splash .blurb-footer > p {
   color: #ffffff;
   font-weight: 500;
 }
 
-.intro-splash .intro-status {
+.intro-splash .blurb-footer .intro-status {
   font-family: 'Source Code Pro', monospace;
   font-weight: bold;
   padding: 0;
@@ -140,13 +140,18 @@ a{
   /*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
 }
 
-.contact-info{
-  font-weight: normal;
+.blurb-footer{
   position: absolute;
-  bottom: 5%;
+  text-align: center;
   left: 50%;
   -moz-transform: translateX(-50%);
   -ms-transform: translateX(-50%);
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
+  bottom: 0%;
+}
+
+.greeting{
+  position: absolute;
+  top: 0%;
 }
