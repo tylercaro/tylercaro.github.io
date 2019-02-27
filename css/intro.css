@@ -3,7 +3,10 @@
 ** teal: #15A3A5;
 ** light grey: # f6f6f6;
 */
-
+@font-face {
+  font-family: 'Hardware';
+  src: url('fonts/DDCHardware-Regular.otf') format('opentype');
+}
 /*
 ** parent to:
 ** main-content &
@@ -22,8 +25,9 @@
 */
 
 body{
-  font-family: 'Roboto', sans-serif;
-  font-weight: 500; 
+  /*font-family: 'Roboto', sans-serif;*/
+  font-family: 'Hardware';
+  font-weight: 500;
 }
 .main-content{
   float: right;
